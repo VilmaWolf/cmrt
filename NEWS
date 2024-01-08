@@ -1,0 +1,34 @@
+libcmrt NEWS -- summary of user visible changes.  2016-08-10
+Copyright (C) 2016 Intel Corporation
+
+Version 1.0.6 - 2016-08-10
+* Add support for shader debugger for SKL, BDW, and HSW
+* Change package config file to libcmrt.pc
+* Export CM kernel ID type
+* Support reporting device rev id
+* Set CM_VERSION to CM_5_0 to mark SKL support
+* Add API GetRTDllVersion to query current CM version
+* Add preliminary identification for APL/KBL
+
+Version 1.0.5 - 2015-09-09
+* Fix autogen.sh license header
+* Clean compiler warnings
+* Fix library name and SONAME
+* Fix double free on CmProgram
+
+Version 1.0.4 - 2015-09-02
+* Support dynamic loading
+* Fix SKL performance issue with LLC/eLLC
+
+Version 1.0.3 - 2015-08-19
+* Add virtual ISA Jitter support
+* Fix GT stepping identification on SKL
+* Fix potential GEN9 GPU hang
+
+Version 1.0.2 - 2015-07-16
+* Add SKL stepping fixes
+* Add L3 cache support
+* Add support for SKL platform
+
+Version 1.0.1 - 2015-03-05
+* Initial release
